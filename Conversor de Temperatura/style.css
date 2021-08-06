@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap%27');
+* {
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-image: url('https://imagens.climatempo.com.br/climapress/galeria/2021/05/750x553_0df5dcc77a0c5ea28bdd1fe94f45e032.jpg');
+  background-color: #000000;
+  background-size: 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.containerConteudo {
+  display: flex;
+}
+
+.page-title {
+  color: #0c0c0c;
+  margin: 80px;
+  background-color: #ffffff;
+}
+
+.slider {
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+  width: 350px;
+  height: 550px;
+  margin-top: 50px;
+  margin: auto;
+  }
+
+.slider h6 {
+  color: rgba(245, 80, 80, 0.788);
+  font-size: 17px;
+}
+
+.entrada input {
+  margin-left: 1px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid rgba(245, 80, 80, 0.788);
+  height:50px;
+  width: 200px;
+  margin-top: 40px;
+}
+
+.saida input {
+  margin-left: 1px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid rgba(245, 80, 80, 0.788);
+  height:50px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+#fahrenheit {
+  text-align: center;
+  font-size: 20px;
+}
+
+#celcius {
+  text-align: center;
+  font-size: 20px;
+}
+
+#saidaCelcius {
+  text-align: center;
+  font-size: 20px;
+}
+
+#saidaFahrenheit {
+  text-align: center;
+  font-size: 20px;
+}
+
+.btnSubmit {
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 150px;
+  align-self: center;
+  border-width: 0px;
+  margin-top: 1rem;
+  background-color: rgba(245, 80, 80, 0.788);
+  border:1px solid rgba(245, 80, 80, 0.788);
+  transition: background-color .5s;
+}
+
+.btnSubmit:hover {
+  background-color: white;
+  color:#111213;
+}
+
+.btnSubmit1 {
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: rgb(5, 5, 5);
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 50px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 150px;
+  align-self: center;
+  border-width: 0px;
+  margin-top: 1rem;
+  background-color:rgba(245, 80, 80, 0.788);
+  border:1px solid rgba(245, 80, 80, 0.788);
+  transition: background-color .5s;
+}
+.btnSubmit1:hover {
+  background-color: white;
+  color:rgba(245, 80, 80, 0.788);
+}
+
+.saida {
+  margin-left: 1px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid rgba(245, 80, 80, 0.788);
+  height:50px;
+  width: 200px;
+  margin-left: 125px;
+  text-align: center;
+  font-size: 20px;
+  margin: auto;
+}
