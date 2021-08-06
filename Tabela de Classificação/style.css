@@ -1,0 +1,57 @@
+    
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-image: url('https://images3.alphacoders.com/207/207335.jpg');
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    text-transform:overline;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #eb718c;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: rgb(248, 240, 240);
+}
+
+th, tr, td {
+    border: solid 1px rgb(252, 247, 247);
+    color: rgb(250, 3, 65);
+}
